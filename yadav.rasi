@@ -1,0 +1,61 @@
+* {
+    bg: #50000000;
+    fg: #dcdcdc;
+    grey: #707070;
+}
+
+window {
+    location: center;
+    anchor: center;
+
+    width: 50%;
+
+    transparency: "real";
+    background-color: @bg;
+
+    border: 0;
+    border-radius: 0;
+    padding: 10px;
+}
+
+mainbox,
+inputbar,
+listview {
+    background-color: transparent;
+    border: 0 0 2px 0;
+    border-color: @grey;
+
+}
+
+prompt {
+    enabled: false;
+}
+
+entry {
+    background-color: transparent;
+    text-color: @fg;
+}
+
+element {
+    background-color: transparent;
+    text-color: @fg;
+    border: 0;
+    border-radius: 0;
+    padding: 6px;
+}
+
+element-icon {
+    background-color: transparent;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
+
+element selected {
+    background-color: @grey;
+    text-color: @fg;
+    border: 0;
+    border-radius: 4px;
+}
